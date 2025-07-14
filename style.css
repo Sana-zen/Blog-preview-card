@@ -19,7 +19,8 @@ body {
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
-    width: 300px;
+    width: 90%;
+    max-width: 300px;
     padding: 1rem;
     box-shadow: 5px 5px 1px black;
 }
@@ -36,7 +37,7 @@ figure {
 figcaption {
     background-color: hsl(47, 88%, 63%);
     display: inline-block;
-    padding: 5px 10px;
+    padding: 4px 12px;
     border-radius: 5px;
     font-weight: bold;
     font-size: small;
@@ -49,9 +50,10 @@ figcaption {
     margin-top: 12px;
 }
 
-h2 {
-    margin: 15px 0 10px 0;
-    font-size: 1rem;
+h1 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
 }
 
 .desc {
@@ -77,7 +79,12 @@ h2 {
     font-size: small;
 }
 
-h2:hover {
+h1:hover {
     color:hsl(47, 88%, 63%);
     cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 2px black;
+    transition: box-shadow 0.3s ease-in-out;
 }
