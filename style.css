@@ -1,0 +1,83 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 5px 5px 1px black;
+}
+
+.card img.img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 15px;
+}
+
+.time {
+    color: black;
+    font-size: small;
+    margin-top: 12px;
+}
+
+h2 {
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+}
+
+.desc {
+    color: gray;
+    font-size: small;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile .pfp-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile .name {
+    font-weight: bold;
+    font-size: small;
+}
+
+h2:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
